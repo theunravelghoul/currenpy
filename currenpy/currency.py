@@ -1479,3 +1479,7 @@ class CurrencyHelper:
     @classmethod
     def get_all_currencies(cls) -> typing.KeysView[Currency]:
         return cls._CURRENCY_DATA.keys()
+
+    @classmethod
+    def display_name_for_currency(cls, currency: Currency) -> str:
+        return cls._CURRENCY_DATA[currency]['display_name']
