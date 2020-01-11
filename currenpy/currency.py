@@ -1,3 +1,4 @@
+import typing
 from enum import Enum
 
 from currenpy.symbols import CurrencySymbol
@@ -1474,3 +1475,7 @@ class CurrencyHelper:
     @classmethod
     def symbol_for_currency(cls, currency: Currency) -> str:
         return cls._CURRENCY_DATA[currency]["symbol"]
+
+    @classmethod
+    def get_all_currencies(cls) -> typing.KeysView[Currency]:
+        return cls._CURRENCY_DATA.keys()
