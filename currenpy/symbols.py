@@ -2,6 +2,8 @@ from enum import Enum
 
 
 class CurrencySymbol(Enum):
+    DEFAULT = ""
+
     AED = "د.إ"
     AFN = "؋"
     ALL = "L"
