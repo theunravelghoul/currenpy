@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="currenpy",
-    version="1.0.5",
+    version="1.0.6",
     packages=["currenpy"],
     url="https://github.com/theunravelghoul/currenpy",
     license="MIT",
