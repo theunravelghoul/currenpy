@@ -1476,4 +1476,4 @@ class CurrencyHelper:
 
     @classmethod
     def display_name_for_currency(cls, currency: Currency) -> str:
-        return cls._CURRENCY_DATA[currency]['display_name']
+        return cls._CURRENCY_DATA[currency]["display_name"]
